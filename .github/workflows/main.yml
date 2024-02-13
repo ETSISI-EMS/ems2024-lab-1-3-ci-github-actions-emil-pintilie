@@ -2,7 +2,7 @@ name: Build and test of Java Project
 on: [push]
 jobs:
     build:
-      runs-on: ubuntu-latest:
+      runs-on: ubuntu-latest
         steps:
           -uses: actions/checkout@v2
           -name: Set up JFK 1.8
